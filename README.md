@@ -4,7 +4,7 @@
 
 ## 简介
 
-碳洛谷是一款改编自[氢洛谷](https://userstyles.org/styles/166554/argon-design-luogu-argon-design)的开源洛谷美化包，需搭配Stylish使用。
+碳洛谷是一款改编自[氩洛谷](https://userstyles.org/styles/166554/argon-design-luogu-argon-design)的开源洛谷美化包，需搭配Stylish使用。
 
 此美化包适用于洛谷全站。
 
