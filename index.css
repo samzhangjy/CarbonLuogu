@@ -1264,7 +1264,7 @@ div > .row-wrap .lfe-caption {
 }
 
 /*链接颜色*/
-a:not(.lg-fg-purple, .lg-fg-red, .lg-fg-orange, .lg-fg-green, .lg-fg-bluelight):hover {
+a:not(.lg-fg-purple, .lg-fg-red, .lg-fg-orange, .lg-fg-green, .lg-fg-bluelight, .am-btn):hover {
     color: #0056B3 !important;
 }
 
@@ -1512,5 +1512,13 @@ input[type="text"] .frame {
 /*用户主页*/
 .user-header-top {
     margin-top: -23px;
+}
+
+
+/*侧边栏*/
+#app .lfe-body:not(.main-container .lfe-body) {
+/*     display: float !important; */
+    height: 420px;
+    border-radius: 10px 0px 10px 0px !important;
 }
 /*Carbon Luogu代码结束*/
