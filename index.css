@@ -1264,7 +1264,7 @@ div > .row-wrap .lfe-caption {
 }
 
 /*链接颜色*/
-a:hover {
+a:not(.lg-fg-purple, .lg-fg-red, .lg-fg-orange, .lg-fg-green, .lg-fg-bluelight):hover {
     color: #0056B3 !important;
 }
 
@@ -1340,6 +1340,15 @@ input[type="text"] .frame {
     color: #000 !important;
 }
 
+.popup {
+    border-radius: 10px !important;
+    z-index: 100 !important;
+}
+
+.am-prev {
+    z-index: 1 !important;
+}
+
 /*标签选择栏*/
 .items .selected {
     background-color: #5E72E4 !important;
@@ -1406,5 +1415,102 @@ input[type="text"] .frame {
 
 .operations.float {
     border: none !important;
+}
+
+/*私信侧边栏*/
+.side .item {
+    transition: 0.2s;
+    border-radius: 10px;
+/*     margin: 10px; */
+    border: none !important;
+}
+
+.side .panel-content {
+/*     background-color: #e8e8e8; */
+/*     border-radius: 10px; */
+    padding: 10px;
+}
+
+/*私信消息*/
+
+.message::after {
+    content: none !important;
+}
+
+.message-block .message {
+    padding: 5px 10px 5px 10px !important;
+    background-color: #eee !important;
+    border-radius: 10px !important;
+}
+
+.right .message {
+    background-color: #5E72E4 !important;
+    color: #fff;
+}
+
+.message-block img {
+    height: 35px !important;
+    width: 35px !important;
+}
+
+/*导航栏右侧用户信息菜单*/
+.container .dropdown .center {
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 8px;
+}
+
+.container .dropdown .center .header {
+    margin-bottom: -10px;
+}
+
+.container .dropdown .center .ops a {
+    margin-top: 10px;
+}
+
+/*提交记录状态*/
+.status-link .tag {
+    border-radius: 8px !important;
+/*     padding: 2px 8px 2px 8px; */
+    margin: 0px !important;
+}
+
+/*下拉菜单*/
+.dropdown {
+    border-radius: 10px !important;
+    padding: 10px !important;
+}
+
+.dropdown li {
+    transition: 0.2s;
+    border-radius: 5px !important;
+    padding: 10px;
+}
+
+/*小卡片*/
+.inner-card {
+    border-radius: 10px !important;
+    padding: 10px 20px 10px 20px !important;
+    background-color: #fcfcfc !important;
+    border: none !important;
+    margin: 1px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    transition: 0.2s;
+}
+
+.inner-card:hover {
+    box-shadow: 0 10px 30px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
+}
+
+/*标签*/
+.tag {
+    border-radius: 5px !important;
+    padding: 2px 8px 2px 8px !important;
+    margin-left: 10px;
+}
+
+/*用户主页*/
+.user-header-top {
+    margin-top: -23px;
 }
 /*Carbon Luogu代码结束*/
