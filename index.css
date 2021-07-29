@@ -1383,7 +1383,7 @@ input[type="text"] .frame {
 
 /*底部悬浮分页*/
 .float-bottom {
-    border-radius: 10px 0px !important;
+    border-radius: 10px 10px 0px 0px !important;
 }
 
 .bottom-inner .page-bar button {
